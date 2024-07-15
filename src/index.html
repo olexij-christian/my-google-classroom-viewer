@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Google Classroom Manager</title>
+    
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+
+      <table id="table" class="hided">
+        <thead>
+          <tr class="thead">
+
+          </tr>
+        </thead>
+        <tbody class="tbody">
+
+        </tbody>
+      </table>
+
+      <div class="centered-content">
+
+        <div id="loading" class="hided">
+          <p class="label"></p>
+          <div class="spinner">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+          </div>
+        </div>
+
+        <div id="login">
+          <h1 class="label"></h1>
+          <button class="btn"></button>
+          <button class="hided" id="exitBtn">Вийти з aкаунту</button>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="renderer.js"></script>
+  </body>
+</html>
