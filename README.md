@@ -2,7 +2,7 @@
 
 [українською мовою](README-uk.md)
 
-[screenshot][screenshot.png]
+![screenshot](screenshot.png)
 
 ## Overview
 **my-google-classroom-viewer** is a simple graphical application designed to help educators view tasks assigned to students across all their Google Classroom courses. This tool aggregates tasks from various courses linked to your Google account, providing an organized and user-friendly interface.
